@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jacob (Yinsheng) Zhou</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="index.html" class="active">About</a>
+                <a href="blog.html">Blog</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- idea: have a javascript animated loss function converging in the header? :p -->
+    <div id="dhead" class="container">
+        <div class="row">
+            <div id="dpic">
+                <img src="assets/me.jpeg" class="ppic" />
+            </div>
+            <div id="ddesc">
+                <h1>Jacob (Yinsheng) Zhou</h1>
+                <h2>Life, liberty and the pursuit of happiness</h2>
+                <div id="dico">
+                    <a href="https://twitter.com"><img src="assets/ctwitter.svg" class="iico" /></a>
+                    <a href="https://github.com/jacobergzhou"><img src="assets/cgithub.svg" class="iico" /></a>
+                    <a href="https://www.linkedin.com/in/yinsheng-jacob-zhou-107226139/"><img src="assets/linkedin.svg"
+                            class="iico" /></a>
+                    <img src="assets/cemail.svg" style="cursor: pointer;" class="iico" id="iemail"
+                        title="click to send email" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="history" class="container">
+
+        <div class="entry row">
+            <div class="timespan">
+                2022 -
+            </div>
+            <div class="ico">
+                <div class="entry-dot"></div>
+                <img src="assets/amazon.png" />
+            </div>
+            <div class="desc">
+                I am currently a software engineer at Amazon working at a infrastructure team to ensure EC2 elasticity
+                across Amazon services.
+
+            </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+                2020 - 2022
+            </div>
+            <div class="ico">
+                <div class="entry-dot"></div>
+                <img src="assets/ucla.png" />
+            </div>
+            <div class="desc">
+                MS of Computer Science at UCLA where I worked with <a href="https://web.cs.ucla.edu/~fab/">Professor
+                    Fabien Scalzo</a> on medical imaging
+                application by using Computer Vision algorithm to auto detect stroke patients.
+            </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+                2016 - 2020
+            </div>
+            <div class="ico">
+                <div class="entry-dot"></div>
+                <img src="assets/ucla.png" />
+            </div>
+            <div class="desc">
+                BS of Computer Science and BS of Applied Math (double major) at UCLA.
+            </div>
+        </div>
+    </div>
+
+    <div id="pet-projects" class="container">
+        <div class="ctitle">Open source projects</div>
+
+        <div class="project">
+
+        </div>
+
+    </div>
+
+    <div id="certificate" class="container">
+        <div class="ctitle">Certificate</div>
+
+        <div class="project">
+            <ul style="padding-left: 10px;">
+                <li><a href="https://www.credly.com/badges/4c99e9f6-b78a-43ba-a7b8-50d7c8b1cb53">AWS Certified Solutions
+                        Architect - Associate</a></li>
+                <li><a href="https://www.credly.com/badges/4b5bd108-dccc-4e8c-9162-abce0435a561">AWS Certified Developer
+                        - Associate</a></li>
+                <li><a href="https://www.credly.com/badges/9a8e4edf-6d36-47bc-b7d1-00c26571f71e">AWS Certified SysOps
+                        Administrator - Associate</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="ctitle">Misc unsorted</div>
+        <ul style="padding-left: 10px;">
+            <li>This website format is inspired by <a href="https://karpathy.ai/">Andrej Karpathy</a>. I'm a big fan of
+                the timeless design with no overcomplicated tech stack </li>
+        </ul>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <script>
+        // Email functionality
+        document.getElementById('iemail').addEventListener('click', function () {
+            window.location.href = "mailto:jacobzhou98@gmail.com";
+        });
+    </script>
+
+</body>
+
+</html>
